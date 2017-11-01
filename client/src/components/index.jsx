@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-import RandomPairsList from './RandomPairsList.jsx'
-import Calendar from './Calendar.jsx'
-import CohortRosterList from './CohortRosterList.jsx'
+import FishInAndOut from './FishInAndOut.jsx'
+import FishList from './FishList.jsx'
 
 function App() {
   const title = 'fishes'
@@ -12,10 +11,9 @@ function App() {
     <div className="app-div">
       <div className="title">{title}</div>
       <div className="grid-top">
-        <RandomPairsList />
-        <Calendar />
+        <FishInAndOut />
       </div>
-      <CohortRosterList />
+      <FishList />
     </div>
   )
 }
