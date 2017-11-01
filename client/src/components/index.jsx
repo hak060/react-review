@@ -6,7 +6,7 @@ import Calendar from './Calendar.jsx'
 import CohortRosterList from './CohortRosterList.jsx'
 
 function App() {
-  const title = 'Random Calendar Spammer'
+  const title = 'fishes'
 
   return(
     <div className="app-div">
