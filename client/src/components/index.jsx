@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 
 import FishInAndOut from './FishInAndOut.jsx'
 import FishList from './FishList.jsx'
+import FishTextInput from './FishTextInput.jsx'
 
 function App() {
   const title = 'fishes'
@@ -13,6 +14,7 @@ function App() {
       <div className="grid-top">
         <FishInAndOut />
       </div>
+      <div><FishTextInput /></div>
       <FishList />
     </div>
   )
