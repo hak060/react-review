@@ -1,20 +1,19 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-import FishInAndOut from './FishInAndOut.jsx'
+import FilterFish from './FilterFish.jsx'
 import FishList from './FishList.jsx'
-import FishTextInput from './FishTextInput.jsx'
+import AddFish from './AddFish.jsx'
 
 function App() {
-  const title = 'fishes'
+  // const title = 'fishes'
 
   return(
     <div className="app-div">
-      <div className="title">{title}</div>
-      <div className="grid-top">
-        <FishInAndOut />
-      </div>
-      <div><FishTextInput /></div>
+      <div className="title">Add Fish</div>
+      <div><AddFish /></div>
+      <div className="title">Filter Fish</div>
+      <div className="grid-top"><FilterFish /></div>
       <FishList />
     </div>
   )
